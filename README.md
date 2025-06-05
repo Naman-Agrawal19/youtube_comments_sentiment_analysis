@@ -13,10 +13,8 @@ This project provides a complete pipeline for fetching, cleaning, and analyzing 
   Cleans and normalizes comments, removes stopwords (supports English, Hindi, and Hinglish), and handles emojis, URLs, and special characters.
 
 - **Sentiment Analysis:**  
-  Supports multiple sentiment analysis models, including:
+  Supports sentiment analysis models:
   - `ganeshkharad/gk-hinglish-sentiment`
-  - `pascalrai/hinglish-twitter-roberta-base-sentiment`
-  - VADER and TextBlob for classical sentiment scoring
 
 - **Visualization:**  
   Interactive dashboard built with Streamlit for visualizing sentiment distribution, word clouds, and more.
