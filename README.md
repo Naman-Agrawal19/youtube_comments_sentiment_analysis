@@ -73,22 +73,26 @@ Below are some screenshots of the dashboard and features:
 
 ### Dashboard Overview
 
-![Dashboard Overview](screenshots/dashboard_overview.png)
+![Dashboard Overview](screenshots/1.png)
 
 ### Sentiment Distribution
 
-![Sentiment Distribution](screenshots/sentiment_distribution.png)
+![Sentiment Distribution](screenshots/2.png)
+![Sentiment Distribution](screenshots/3.png)
 
 ### Word Cloud
 
-![Word Cloud](screenshots/wordcloud.png)
+![Word Cloud](screenshots/4.png)
+
+### Sentiment Analysis with time
+![Sentiment Distribution with time](screenshots/5.png)
 
 ---
 
 ## Customization
 
 - **Models:**  
-  You can easily swap out or add new Hugging Face models in `src/sentiment_analyzer.py`.
+  You can easily swap out or add new Hugging Face models in `src/sentiment_analyzer.py` using `config.yaml`.
 
 - **Stopwords:**  
   The stopword lists can be extended for better Hinglish/Indian language support.
@@ -100,7 +104,7 @@ Below are some screenshots of the dashboard and features:
 
 ## Notes
 
-- The `raw_files_not_to_use/` folder contains exploratory and experimental scripts. The main pipeline is in `src/`.
+- The `raw_files_not_to_use/` folder contains exploratory and experimental scripts which do not affect the project pipeline. The main pipeline is in `src/`.
 - For best performance on large datasets, use a GPU.
 - If you encounter issues with model downloads, ensure your internet connection is active and the Hugging Face `transformers` library is up to date.
 
