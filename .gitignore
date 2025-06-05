@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+*.env
+.env.*
+
+# Python virtual environments
+venv/
+.venv/
+env/
+.myenv/
+myenv/
+# Conda environments
+*.conda
+*.egg-info/
+*.egg
+
+# Data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.h5
+*.db
+*.sqlite3
+
+# Model files
+*.pth
+*.pt
+*.h5
+*.joblib
+*.pkl
+*.sav
+
+# Streamlit cache
+.streamlit/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# YAML config secrets
+config/config.yaml
+
+# Output and temporary files
+*.out
+*.tmp
+*.bak
+
+# PDFs and images (optional, if generated)
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# PandasGUI state
+pandasgui/
+
+# Plotly temp files
+.plotly/
+
+# Ignore raw_files if not needed in version control
+raw_files/
+
+# Ignore interactive and notebook files if not needed
+*.interactive
+*.ipynb
+
+# Ignore test outputs
+test_outputs/
