@@ -102,6 +102,24 @@ Below are some screenshots of the dashboard and features:
 
 ---
 
+## What Can Be Improved
+
+- **Language-Specific Models:**  
+  Currently, the pipeline uses a single model for all comments. In the future, you can improve accuracy by automatically detecting the language of each comment and routing it to a dedicated model for Hindi, English, or Hinglish. For example, use a robust English sentiment model for English comments and a Hindi model for Devanagari-script comments.
+
+- **Question Answering on Comments:**  
+  You can add a feature to ask questions about the comments, such as "What are the most common complaints?" or "Summarize the positive feedback." This can be implemented using extractive or abstractive question-answering models from Hugging Face.
+
+- **Topic Modeling:**  
+  Add topic modeling to discover common themes in the comments.
+
+- **User Interaction:**  
+  Allow users to filter, search, or highlight comments by sentiment, length, or keywords.
+
+- **Model Comparison:**  
+  Add a feature to compare the performance of different sentiment models on your dataset.
+---
+
 ## Notes
 
 - The `raw_files_not_to_use/` folder contains exploratory and experimental scripts which do not affect the project pipeline. The main pipeline is in `src/`.
