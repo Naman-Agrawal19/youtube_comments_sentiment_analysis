@@ -102,12 +102,12 @@ Below are some screenshots of the dashboard and features:
 
 ---
 ## Performance
-Tested on 500 manually labeled YouTube comments (balanced across sentiments):
-results = {
+Tested on 500 manually labeled YouTube comments (balanced across sentiments):<br>
+`results = {
     'accuracy': 0.8923,
     'test_samples': 500,
     'class_balance': {'positive': 0.45, 'neutral': 0.3, 'negative': 0.25}
-}
+}`
 
 | Metric       | Score | Test Samples |
 |--------------|-------|--------------|
