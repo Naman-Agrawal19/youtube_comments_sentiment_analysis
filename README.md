@@ -103,16 +103,17 @@ Below are some screenshots of the dashboard and features:
 ---
 ## Performance
 Tested on 500 manually labeled YouTube comments (balanced across sentiments):<br>
-`results = {
+<code>results = {
     'accuracy': 0.8923,
     'test_samples': 500,
     'class_balance': {'positive': 0.45, 'neutral': 0.3, 'negative': 0.25}
-}`
+}</code>
 
-| Metric       | Score | Test Samples |
-|--------------|-------|--------------|
-| Accuracy     | 89%   | 500          |
-| F1 (Positive)| 0.91  |              |
+| Metric            | Score    |
+|-------------------|----------|
+| **Accuracy**      | 89.2%    |
+| **F1 (Positive)** | 0.91     | 
+| **F1 (Negative)** | 0.87     |
 
 ---
 
